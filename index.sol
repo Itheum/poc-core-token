@@ -3,12 +3,12 @@ pragma solidity ^0.4.24;
 // ----------------------------------------------------------------------------
 // 'IHT1' token contract
 //
-// Deployed to : 0x5A86f0cafD4ef3ba4f0344C138afcC84bd1ED222
+// Deployed to : 0x1d3a85566e78d85ff534407d91c9863622afb601
 // Symbol      : IHT1
 // Name        : IHT 1 Token
 // Total supply: 100000000
 // Decimals    : 18
-//
+// 
 // Enjoy.
 //
 // (c) by Moritz Neto with BokkyPooBah / Bok Consulting Pty Ltd Au 2017. The MIT Licence.
@@ -117,8 +117,8 @@ contract ITHOneToken is ERC20Interface, Owned, SafeMath {
         name = "IHT 1 Token";
         decimals = 18;
         _totalSupply = 100000000000000000000000000;
-        balances[0x5A86f0cafD4ef3ba4f0344C138afcC84bd1ED222] = _totalSupply;
-        emit Transfer(address(0), 0x5A86f0cafD4ef3ba4f0344C138afcC84bd1ED222, _totalSupply);
+        balances[0x3F91A49947d373973dF9c4Aac01Ff439681AF913] = _totalSupply;
+        emit Transfer(address(0), 0x3F91A49947d373973dF9c4Aac01Ff439681AF913, _totalSupply);
     }
 
 
